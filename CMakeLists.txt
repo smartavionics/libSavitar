@@ -30,7 +30,7 @@ if(BUILD_PYTHON)
         set(LIB_SUFFIX "")
     endif()
 
-    include_directories(python/ src/ ${SIP_INCLUDE_DIRS} ${Python3_INCLUDE_DIRS})
+    include_directories(python/ src/ ${Python3_INCLUDE_DIRS})
 endif()
 
 set(CMAKE_CXX_STANDARD 11)
